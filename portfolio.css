@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.help{
+    margin-top: 2rem;
+    background-color: rgba(206, 89, 11, 0.979);
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first_h{
+    margin: auto;
+    color: white;
+    margin-bottom: 1rem;
+}
+.sub_h{
+    margin-bottom: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.help_box{
+    padding: 3rem;
+    background-color: white;
+    width: 20rem;
+    text-align: left;
+    line-height: 1.4rem;
+    margin-right: 1rem;
+    color: rgb(121, 36, 6);
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio{
+    background-color: rgba(184, 178, 178, 0.26);
+    color: rgb(201, 61, 10);
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second_h{
+    margin-bottom: 0.8rem;
+}
+.images{
+    display: flex;
+    margin-top: 1rem;
+    margin-top: 1%;
+}
+.one,.two,.three,.four ,.five ,.six {
+
+    width: 200px;
+    height: 250px;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px
+}
+
+.reviews{
+    padding: 3rem 0;
+    color: rgb(201, 61, 10);
+    text-align: center;
+}
+.img{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem 0;
+    border-radius: 50%;
+}
+.rev_p{
+    width: 50vw;
+    margin: auto;
+}
+.rev_nam{
+    margin-top: 0.5rem;
+    font-size: small;
+}
+
+.contact{
+    background-color: rgba(184, 178, 178, 0.26);
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+form{
+    color: rgb(201, 61, 10);
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    grid-template-rows: 4rem 4rem 9rem;
+    gap: 1rem;
+}
+label{
+    display: block;
+    margin-bottom: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    border: none;
+    padding: 0.6rem;
+    width: 15rem;
+}
+textarea{
+    border: none;
+    padding: 0.6rem;
+    resize: none;
+    width: 31rem;
+    height: 7rem;
+
+}
+#submit_btn{
+    border: none;
+    color: white;
+    background-color: rgb(131, 70, 13);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.btn{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.contactme{
+    color: rgb(131, 70, 13);
+    margin-left: 2rem;
+}
+.contactsub_h{
+    margin:  0.8rem 0;
+}
+.contact_p{
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25rem
+}
+
+td{
+    padding: 0.3rem 0.2rem 0.3rem 0;
+}
+
+footer{
+    background-color: rgb(131, 70, 13);
+    padding: 1.5rem 0;
+    text-align: center;
+    color: white;
+}

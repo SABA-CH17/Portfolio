@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+
+}
+.container {
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+    height: 800px;
+    width: 380px;
+
+}
+.box {
+    box-sizing: border-box;
+    margin:auto;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding:10px;
+
+}
+.pfp {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 0%;
+    margin-bottom: 13%;
+}
+.username {
+    margin-top: 2px;
+}
+
+h2{
+
+    color: white;
+    text-align: center;
+}
+.name {
+    text-align: center;
+    color: white;
+    /* margin-top: -10px; */
+    /* margin-bottom: 0%; */
+}
+.username {
+    color: grey;
+    text-align: center;
+    margin-top: -20px;
+}
+.imageone {
+    display:flex;
+    align-items: center;
+    width:auto;
+    height: auto;
+    border: none;
+    border-radius: 50%;
+    margin-right: 40px;
+
+}
+.span {
+    font-size: 15px;
+    /* margin-top: 30%; */
+
+}
+.button {
+     background-color: royalblue;
+     color: white;
+     width: 170px;
+     border: none;
+     border-radius: 25px;
+     margin-left: 30px;
+     margin-right: 30px;
+    
+
+}
+.app{
+    text-align: center;
+    margin-top: 2%;
+}
+.cancel {
+    text-align: center;
+    color: royalblue;
+    margin-bottom: 1%;
+}
+.list{
+    margin-left:1%;
+}
+ul{
+    color: white;
+}
+.line::before {
+    content: "none";
+    border-top: 1px solid gray;
+    display: inline-block;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+.thg {
+    margin-top: 2%;
+}
+.whi,b{
+    color: white;
+}
+.gomble {
+    color: white;
+    margin-bottom: 3%;
+}
+.text {
+    margin-left: 9%;
+    color: white;
+}
+.words {
+    color: royalblue;
+}
